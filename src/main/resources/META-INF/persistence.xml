@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.example_App_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.example.App.Entities.Programcomp</class>
+    <class>com.example.App.Entities.Etudient</class>
+    <class>com.example.App.Entities.Role</class>
+    <class>com.example.App.Entities.Emploitemps</class>
+    <class>com.example.App.Entities.Actualite</class>
+    <class>com.example.App.Entities.Note</class>
+    <class>com.example.App.Entities.Programexam</class>
+    <class>com.example.App.Entities.Etudiant</class>
+    <class>com.example.App.Entities.Etape</class>
+    <class>com.example.App.Entities.Anneeacad</class>
+    <class>com.example.App.Entities.Niveau</class>
+    <class>com.example.App.Entities.Semestre</class>
+    <class>com.example.App.Entities.User_1</class>
+    <class>com.example.App.Entities.Semestre_1</class>
+    <class>com.example.App.Entities.Etape_1</class>
+    <class>com.example.App.Entities.Anneeacad_1</class>
+    <class>com.example.App.Entities.Niveau_1</class>
+    <class>com.example.App.Entities.UsersRoles</class>
+    <class>com.example.App.Entities.Users</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/appmobiefs_bd"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="admin"/>
+    </properties>
+  </persistence-unit>
+</persistence>
